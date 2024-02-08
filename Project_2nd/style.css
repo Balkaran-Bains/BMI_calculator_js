@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(229, 206, 176);
+}
+
+.div_1{
+    text-align: center;
+    margin: 150px auto 100px;
+    width: 80%;
+}
+
+.h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:1cm;
+}
+
+.indicators{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#height ,#weight{
+    padding: 4px;
+    background-color: rgb(237, 155, 155);
+    border-radius: 6px;
+    border: 2px solid rgb(213, 60, 60);
+    transition-duration: 0.2s;
+}
+
+#height:hover{
+    padding: 13px;
+    
+}
+
+#weight:hover{
+    padding: 13px;
+ 
+}
+.div_2{
+    padding-top: 20px;
+}
+
+
+#results {
+    font-size: 35px;
+    margin-top: 20px;
+    color: rgb(12, 83, 26);
+    font-weight: bold;
+        
+  }
+
+
+
+
+.button {
+    margin-top: 20px;
+   padding: 7px;
+   width: 150px;
+   border-radius:20px ;
+  background-color: rgb(140, 24, 128);
+  color: rgb(240, 246, 168);
+  font-size: large;
+  font-weight: bolder;
+  transition-duration: 0.3s;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.button:hover{
+    background-color:  rgb(240, 246, 168);
+    color:  rgb(140, 24, 128);
+    width: 400px;
+    padding: 11px;
+    font-size: x-large;
+    
+}
+
